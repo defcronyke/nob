@@ -23,7 +23,7 @@ edition = "2018"
 
 [workspace]
 members = [
-    "libnob",
+    "./libnob",
 ]
 
 [dependencies]
