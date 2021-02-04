@@ -1,4 +1,4 @@
-# nob - NOB Open Base  
+# nob - Nob Open Base  
   
 Copyright (c) 2021 Jeremy Carter <jeremy@jeremycarter.ca>  
   

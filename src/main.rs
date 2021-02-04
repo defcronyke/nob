@@ -22,7 +22,7 @@ fn main() {
     res.map_or_else(
         |err| {
             let (res, code) = err;
-            println!("Exited with error: {}\n{}", &res, code);
+            eprintln!("Exited with error: {}\n{}", &res, code);
             std::process::exit(code);
         },
         |res| {
@@ -34,7 +34,7 @@ fn main() {
 }
 
 fn inner_main() -> Result<NobResultSuccess, (NobResultError, NobResultErrorCode)> {
-    let name = &format!("{} {}", NOB_NAME, NOB_VERSION);
+    let name = &format!("{} {}", constant::NOB_NAME, constant::NOB_VERSION);
     println!("{} starting.", name);
 
     let app = NobRoot::new(Some(name));
