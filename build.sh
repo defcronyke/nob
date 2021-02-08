@@ -15,4 +15,4 @@
 # terms from all of the different technologies apply, with
 # this project's license terms taking first priority.
 
-cargo build --color always $@
+cargo build --color always

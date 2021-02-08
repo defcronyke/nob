@@ -15,4 +15,4 @@ rem so furthermore, whenever legally possible, all license
 rem terms from all of the different technologies apply, with
 rem this project's license terms taking first priority.
 
-cargo build --color always %*
+cargo build --color always
